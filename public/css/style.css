@@ -666,8 +666,10 @@ li {
 
 .docimg {
   width: 100%;
-  transition: all 0.5s ease-in;
   height: 380px;
+  object-fit: cover;
+  object-position: top center;
+  transition: all 0.5s ease-in;
 }
 
 .doctor .overlay {
@@ -1317,7 +1319,6 @@ footer {
 
 img {
   width: 100%;
-  object-fit: fill;
 }
 
 .input-container {
