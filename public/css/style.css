@@ -949,13 +949,15 @@ li {
 }
 
 .news-img {
-  flex: 0 0 16%;
-  max-width: 16%;
+  flex: 0 0 20%;
+  max-width: 18%;
 }
 
 .news-img img {
   width: 100%;
   height: 73px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .news-container .latest-content {
