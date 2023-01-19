@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <!--  -->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <a href="/">
+      <h1 class="logo">
+        <img src="images/logo.png" alt="logo">
+      </h1>
+    </a>
+    <div class="navbar">
+      <div class="navMenu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="/" class="nav__link">Home</a></li>
+          <li><a href="/services" class="nav__link">Services</a></li>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn nav__link">Departments</a>
+            <div class="dropdown-content">
+              <a href="#">Surgery</a>
+              <a href="#">Pharmacy</a>
+              <a href="#">Orthopedics</a>
+              <a href="#">Radiology</a>
+              <a href="#">Gyneacology</a>
+              <a href="#">Optics </a>
+              <a href="#">Dentistry </a>
+              <a href="#">Dermatology </a>
+            </div>
+          </li>
+          <li><a href="/doctor" class="nav__link">Doctors</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn nav__link">Blogs</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
+          <li><a href="/about" class="nav__link">About Us</a></li>
+          </li>
+          <li><a href="/contact" class="nav__link">Contacts Us</a></li>
+        </ul>
+      </div>
+      <div class="login">
+        <a href="/login">Login</a>
+      </div>
+      <div class="hamburger" id="nav-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+  </header>
+  <!--  -->
+  <main>
+    <!-- heading -->
+    <div class="head-content"
+      style="background: url(./images/exp1.jpg) no-repeat center center/cover; height:200px;width: 100%;">
+      <div class="head">
+        <a href="#" class="head-btn">Contact Us</a>
+      </div>
+    </div>
+    <div class="contact-main">
+      <div class="container">
+        <div class="row">
+          <div class="col1">
+            <div class="contact-main-form">
+              <div style="margin-bottom:8px;">
+                <h2> Get in touch</h2>
+              </div>
+              <div class="contact-form-container">
+                <script type="text/javascript">
+                  var submitted = false;
+                </script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"
+                  onload="if(submitted){
+                    alert('Your response has been successfully submitted')
+                    window.location='/'}">
+                </iframe>
+                <form
+                  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf9WLfJbhROIiLCgkvaruq8zs-4gTzMQ-HXeJVfYMHmPIaMfg/formResponse"
+                  target="hidden_iframe"
+                  method="POST" 
+                  onsubmit="submitted=true"
+                  >
+                  <input type="text" name="entry.1994729641" placeholder="Your Name" class="form-appointment" />
+                  <input type="email" name="entry.1328250020" placeholder="Email Address" class="form-appointment" />
+                  <input type="text" name="entry.1874333904" placeholder="Subject" class="form-appointment" />
+                  <textarea name="entry.1015071916" placeholder="Your Message" class="form-appointment"></textarea>
+                  <button type="submit" class="form-btn">Send Message </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="info_form_container ">
+              <div class="info_form_title">Book an Appointment</div>
+              <script type="text/javascript">
+                var submitted = false;
+              </script>
+              <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){
+                  alert('Your response has been successfully submitted')
+                  window.location='/contact';
+              }">
+              </iframe>
+              <form
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdGK_re93ijaQo8ezBAFJIrfNEW68xT3I6V6dwZQ2axoBuPUg/formResponse"
+                method="POST" target="hidden_iframe" class="info_form" id="info_form" onsubmit="submitted=true">
+                <input type="email" name="entry.1934350372" placeholder="Email" required class="info_input">
+                <select name="entry.981628814" class="info_input info_select" required>
+                  <option value="" selected disabled>Department</option>
+                  <option value="Radiology">Radiology</option>
+                  <option value="Orthopedics">Orthopedics</option>
+                  <option value="Pharmacy">Pharmacy</option>
+                  <option value="Dermatology">Dermatology</option>
+                  <option value="Dentistry">Dentistry</option>
+                  <option value="Surgery">Surgery</option>
+                  <option value="Gyneacology">Gyneacology</option>
+                </select>
+                <select name="entry.1999371499" class="info_input info_select" required>
+                  <option value="" selected disabled>Doctor</option>
+                  <option value="Dr. Jaji Moshood">Dr.Jaji Moshood</option>
+                  <option value="Dr. Razak Gbolahan">Dr.Razak Gbolahan</option>
+                  <option value="Dr. Keshinro Wahab">Dr.Keshinro Wahab</option>
+                  <option value="Dr. Tijani Jamiu">Dr.Tijani Jamiu</option>
+                  <option value="Dr. Caleb Ilabija">Dr.Caleb Ilabija</option>
+                  <option value="Dr. Hassan Oladipupo">Dr.Hassan Oladipupo</option>
+                  <option value="Dr.Quadri Sideeqoh">Dr.Quadri Sideeqoh</option>
+                </select>
+                <input name="entry.820515922" type="text" class="info_input" required placeholder="Appointment Date"
+                  onfocus="(this.type='date')">
+                <input type="text" name="entry.1810122970" class="info_input" placeholder="Patient Name" required>
+                <input type="number" name="entry.1075530158" class="info_input" required max="100" placeholder="Age">
+                <input type="text" name="entry.734019752" class="info_input" required placeholder="Phone Number">
+                <button class="info_form_button">Make an appointment</button>
+              </form>
+            </div>
+          </div>
+          <div class="contact-info">
+            <div class="container contact-info-container">
+              <div class="row">
+                <div class="flex">
+                  <div class="open-title">Contact</div>
+                  <div class="address">
+                    <ul>
+                      <li> 56/8, Santa bullevard, Rocky beach, San fransisco, Los angeles, USA.</li>
+                      <li> Email: jaji.moshood1297@gmail.com</li>
+                      <li>+234-809-0686-548</li>
+                      <li>+234-815-5888-980</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex">
+                  <div class="open-title" style="visibility:hidden;">Contact</div>
+                  <div class="address">
+                    <ul>
+                      <li> 8 Collins Avenue, Lekki penninsula,lagos State. .</li>
+                      <li> Email: jaji.moshood1297@gmail.com</li>
+                      <li>+234-809-0686-548</li>
+                      <li>+234-815-5888-980</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex opening-days" style="background:none; ">
+                  <div class="opening">
+                    <div class="open-title">Opening-hours</div>
+                    <ul class="opentime address">
+                      <li class="day">
+                        <span> Monday-Thursday</span>
+                        <span>08.00 am - 10.00 pm</span>
+                      </li>
+                      <li class="day">
+                        <span>Friday</span>
+                        <span>08.00 am - 10.00 pm</span>
+                      </li>
+                      <li class="day">
+                        <span> Saturday</span>
+                        <span>08.00 am - 10.00 pm</span>
+                      </li>
+                      <li class="day">
+                        <span> Sunday </span>
+                        <span>08.00 am - 10.00 pm</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="contact-map">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.168161571666!2d3.3944214642350095!3d6.44828942737506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7ece971f30af2011!2sGeneral%20Hospital%20Eko!5e0!3m2!1sen!2sng!4v1673780601112!5m2!1sen!2sng"
+            width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--  -->
+  <footer>
+    <div class="foot"
+      style=" background: url(images/pexels-jonathan-meyer-668298\ -\ Copy.jpg) no-repeat center center/cover;">
+      <div class="footer-content ">
+        <div class="footer-row ">
+          <div class="contact">
+            <h1 class="logo">
+              <img src="images/logo.png" alt="logo">
+            </h1>
+            <h6 class="contact-title">Contact Us</h6>
+            <div style="color: green;font-size: 28px; margin-bottom:15px; ">
+              <i class="fa fa-landmark"></i>
+            </div>
+            <p> 56/8, Santa bullevard, Rocky beach, San fransisco, Los angeles, USA.</p>
+            <div style="color: green;font-size: 28px; margin-top:30px; ">
+              <i class="fa fa-phone"></i>
+            </div>
+            <h3>+234-809-0686-548</h3>
+            <h3>+234-815-5888-980</h3>
+            <div class="contact-links">
+              <a href="#" title="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" title="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" title="instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" title="linkedin">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer-form">
+            <script type="text/javascript">
+              var submitted = false;
+            </script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"
+              onload="if(submitted){
+               alert('Your response has been successfully submitted')
+              window.location='/'}">
+            </iframe>
+            <h6 class="contact-title"> Quick Contact</h6>
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf9WLfJbhROIiLCgkvaruq8zs-4gTzMQ-HXeJVfYMHmPIaMfg/formResponse" 
+              method="POST" 
+              target="hidden_iframe"
+              method="POST" 
+              onsubmit="submitted=true">
+              <div class="contact-form">
+                <input type="text" name="entry.1994729641" placeholder="Name" class="contact-input">
+                <input type="email" name="entry.1328250020" placeholder="Email"  class="contact-input">
+                <input type="subject" name="entry.1874333904" placeholder="Subject" class="contact-input">
+                <textarea rows="10" name="entry.1015071916" placeholder="Message"></textarea>
+                <button type="submit" class="contact-submit-button">Submit </button>
+              </div>
+            </form>
+          </div>
+          <div class="opening-hours">
+            <div class="opening">
+              <h6 class="contact-title"> Opening Hours</h6>
+              <ul class="opentimes">
+                <li class="oog">
+                  <span> Monday-Thursday</span>
+                  <span>08.00 am - 10.00 pm</span>
+                </li>
+                <li class="oog">
+                  <span>Friday</span>
+                  <span>08.00 am - 10.00 pm</span>
+                </li>
+                <li class="oog">
+                  <span> Saturday</span>
+                  <span>08.00 am - 10.00 pm</span>
+                </li>
+                <li class="oog">
+                  <span> Sunday </span>
+                  <span>08.00 am - 10.00 pm</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="footbord ">
+        <marquee>
+          AT NETCARE LAGOS, WE ARE HERE TO SERVE YOU BETTER, JOIN US TODAY AND YOU"LL BE CONVINCED... AT NETCARE LAGOS,
+          WE ARE HERE TO SERVE YOU BETTER, JOIN US TODAY AND YOU"LL BE CONVINCED...
+        </marquee>
+      </h2>
+    </div>
+  </footer>
+  <!-- js -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

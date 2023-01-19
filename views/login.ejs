@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="headerl navbar">
+    <a href="/">
+      <h1 class="logo">
+        <img src="images/logo.png" alt="logo" >
+      </h1>
+    </a>
+    <div class="login"> 
+      <a href="/">Home</a>
+    </div>
+  </header>
+  <div class="containere" >
+    <div class="login-container col-container">
+      <div class=" login-col1">
+        <div class="login -img ">
+          <img src="images/background.jpg" alt="" height="100%">
+        </div>
+      </div>
+      <div class=" login-col2">
+        <div class="form-container">
+          <div class="form-title ">
+            <h4>Login </h4>
+          </div>
+          <form class="login-form" id="login-form">
+            <div class="input-container">
+              <input type="email" name="email" id="email" placeholder="Email" required class="input" />
+              <input type="password" name="password" id="password" placeholder="Password" class="input" id="password"
+                required autocomplete="off" />
+              <button type="submit" class="form-submit">
+                Sign In!
+              </button>
+            </div>
+          </form>
+          <div class="terms">
+            Don't have Account? <a href="/register">Create one </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/login.js"></script>
+</body>
+
+</html>

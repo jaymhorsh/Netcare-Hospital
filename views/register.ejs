@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+</head>
+<style>
+  .login-container {
+    align-items: normal;
+  }
+
+  .input-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .input {
+    width: 100%;
+    border-radius: 5px;
+  }
+</style>
+
+<body>
+  <header class="headerl navbar">
+    <a href="/">
+      <h1 class="logo">
+        <img src="images/logo.png" alt="logo">
+      </h1>
+    </a>
+    <div class="login">
+      <a href="/">Home</a>
+    </div>
+  </header>
+
+  <div class="login-container col-container">
+    <div class="login-col1">
+      <div class="login -img ">
+        <img src="images/background.jpg" alt="" height="100%">
+      </div>
+    </div>
+    <div class=" login-col2">
+      <div class="form-container">
+        <div class="form-title ">
+          <h4>Register </h4>
+        </div>
+        <form class="reg-form" id="register">
+          <div class="input-container">
+            <span class="sinput">
+              <label for="first">First Name</label><br>
+              <input type="text" placeholder="First Name" required class="input" id="firstname" />
+            </span>
+            <span class="sinput">
+              <label for="last">Last Name</label><br>
+              <input type="text" placeholder="Last-Name" class="input" id="lastname" required />
+            </span>
+            <span class="sinput">
+              <label for="D.O.B">D.O.B</label> <br>
+              <input type="text" onfocus="(this.type='date')" name="date" id="date" placeholder="Date of Birth"
+                class="input" required />
+            </span>
+            <span  class="sinput">
+              <label for="gender"> Gender:</label><br>
+              <span >
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Male</label>
+              </span>
+              <span>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+              </span>
+            </span>
+            <span class="sinput">
+              <label for="category">Category</label><br>
+              <select name="category" id="category" class="input" required>
+                <option value="category" disabled selected> Category</option>
+                <option value="infant"> Infant </option>
+                <option value="Children"> Children</option>
+                <option value="Adult"> Adult </option>
+                <option value="Old">Old</option>
+              </select>
+            </span>
+            <span class="sinput">
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="Email" class="input" id="email" required />
+            </span>
+            <span class="sinput">
+              <label for="phone">phone</label>
+              <input type="number" name="phone" placeholder="Phone" pattern="[0-9]{11}" class="input" id="phoneNum"
+                minlength="11" maxlength="11" required />
+            </span>
+
+            <span class="sinput">
+              <label for="first">Next of Kin: Name</label><br>
+              <input type="text" placeholder="First Name" required class="input" id="kinName" />
+            </span>
+            <span class="sinput">
+              <label for="phone">phone 0f Kin: Phone Number</label>
+              <input type="number" name="phone" placeholder="Phone" pattern="[0-9]{11}" class="input" id="kinPhone"
+                minlength="11" maxlength="11" required />
+            </span>
+            <span class="sinput">
+              <label for="Relationship">Relationship</label><br>
+              <select name="" id="relationship" required class="input">
+                <option value="Relationship" disabled selected> Relationship</option>
+                <option value="father">Father</option>
+                <option value="other">Mother</option>
+                <option value="sibling">Sibling </option>
+                <option value="family-member">Family Member</option>
+                <option value="friend">Friend</option>
+              </select>
+            </span>
+            <span class="linput">
+              <label for="address">Residential Address:</label><br>
+              <textarea class="textbox" name="address" id="textbox" rows="10" required></textarea>
+            </span>
+            <span class="linput">
+              <input type="password" name="password" id="password" placeholder="Password" class="input" min="6" max="11"
+                id="password" required autocomplete="off" />
+            </span>
+            <span class="linput">
+              <input type="password" name="confirm" id="confirm_password" placeholder="Confirm Password" class="input"
+                required autocomplete="off" />
+            </span>
+            <button type="submit" class="register slnput">
+              Submit
+            </button>
+          </div>
+        </form>
+        <div class="terms">
+          Already registered? <a href="/login">Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/register.js"></script>
+</body>
+
+</html>

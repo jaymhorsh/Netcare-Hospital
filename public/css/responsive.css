@@ -1,0 +1,370 @@
+ /* Smartphone */
+ @media screen and (max-width:550px) {
+   .showcase {
+     margin-bottom: 80px;
+   }
+
+   body{
+     margin: 0;
+     padding: 0;
+   }
+   .contact-info-container{
+    left: 0;
+   }
+
+   .item:nth-child(1),
+   .slide .feed,
+   .opening {
+     padding: 0;
+   }
+
+   .staff-background,
+   .staff-info {
+     padding: 2rem 1.2rem;
+   }
+
+   .slick-next {
+     right: 2rem;
+   }
+
+   .slick-prev {
+     left: 15px;
+   }
+
+   .section {
+     margin-top: 80px;
+   }
+
+   .showcase .showcase-content,
+   .section,.doctors .doctor,.faq-news{
+     padding: 0px 14px;
+   }
+
+   .showcase-content h1,
+   h1,
+   .faq-title,
+   .section-title,
+   .item h1 {
+     font-size: 24px;
+   }
+
+   .showcase-content p,
+   .banner-content .banner-text p,.terms, .terms a {
+     font-size: 14px;
+   }
+
+   .banner-content .banner-text p:nth-last-child(1) {
+     font-size: 9px;
+     margin-bottom: 15px;
+   }
+
+   .home-content,
+   .doctors .doctor,
+   .facilities-content,
+   .services-col1,
+   .services-col2,
+   .services-col1 .services-content .content-col,
+   .fcol1,
+   .fcol2,
+   .contact,
+   .footer-form,
+   .opening-hours,
+   .contact-form .contact-input,
+   .service-img,
+   .item,
+   .container,
+   .wrapper,
+   .feedbacks,
+   .contact-main .col1,
+   .contact-main .col2,.faq  {
+     flex: 0 0 100%;
+     max-width: 100%;
+     margin-bottom: 30px;
+   }
+
+   .call,.form-submit {
+     height: 40px;
+     width: 140px;
+   }
+
+   #facilities .row,
+   .about-home,
+   .col,.services-row {
+     flex-direction: column;
+   }
+
+   .facilities-content {
+     box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+     text-align: justify;
+   }
+
+   .services,
+   .services-col1,
+   .services-col2,
+   .services-col1 .services-content,
+   .content-col,
+   .contact,
+   .footer-form,
+   .opening-hours {
+     margin-bottom: 0;
+   }
+
+   .services-col2,
+   .facilities-title {
+     margin-top: 0;
+     margin-bottom: 40px;
+   }
+
+   .services-col2 .back {
+     margin-left: 0;
+     min-width: 100%;
+   }
+
+   .news-container .latest-content,
+   .foot .footer-content,
+   .conslt-row,
+   .footbord,
+   .services-col1,
+   .services-col1 .services-content .content-col,
+   .fcol1,
+   .fcol {
+     padding: 0px;
+   }
+
+   .banner-content .banner-text,
+   .about-home,.contact-main .row {
+     margin: 0;
+     line-height: 1.5rem;
+   }
+
+   .about-home {
+     margin-bottom: 15px;
+   }
+
+   .col-wrapper {
+     margin: 23px 0px;
+   }
+
+   .faq-news,
+   .contact-info {
+     padding-top: 40px;
+     padding-bottom: 20px;
+   }
+
+   .according,
+   .contact-submit-button,
+   .contact-form textarea,
+   .banner-content .banner-text, .login-col2 .input {
+     width: 100%;
+   }
+
+   .showcase-content p,
+   .foot .footer-content,
+   .footbord {
+     padding: 10px 0px;
+   }
+
+   /* .contact div,.contact h3,.contact h6 */
+   .milestone,
+   .letter {
+     text-align: center;
+   }
+
+   .contact,
+   .home-content .appointment {
+     padding: 20px;
+   }
+
+   .banner-content {
+     flex-direction: column;
+     align-items: center;
+     padding: 10px;
+   }
+
+   .facilities-content:nth-child(n+5),.login-col1{
+     display: none;
+   }
+
+   .flex {
+     flex: 0 0 100%;
+     max-width: 90%;
+   }
+
+   .flex:nth-child(2) {
+     margin-bottom: 30px;
+   }
+   .staff-img{
+    width: 70%; 
+    margin: 2rem auto;
+  }
+  .contact-map {
+    margin-top: 750px;
+}
+ }
+
+ /* Tablet  */
+ @media (min-width:551px) and (max-width:890px) {
+
+   .showcase .showcase-content,
+   .item,.service {
+     padding: 0px 1rem;
+   }
+
+   .services-content img {
+     height: 100%;
+   }
+
+   .banner-content .banner-text p {
+     font-size: 28px;
+   }
+
+   .arrow {
+     position: absolute;
+     bottom: -30px;
+   }
+
+   .banner-content .banner-text p:nth-last-child(1) {
+     font-size: 18px;
+     margin-bottom: 15px;
+   }
+
+   .home-content,
+   .home-content3,
+   .services-col1 .services-content .content-col,
+   .services-col1,
+   .services-col2,
+   .fcol1,
+   .fcol2,
+   .contact,
+   .footer-form,
+   .contact-form .contact-input,
+   .opening-hours,
+   .contact-main .col1,.service-img,
+   .contact-main .col2 {
+     flex: 0 0 100%;
+     max-width: 100%;
+     margin-bottom: 30px;
+   }
+
+   .doctors .doctor {
+     flex: 0 0 46%;
+     max-width: 100%;
+     margin-bottom: 30px;
+   }
+
+   .facilities-title {
+     margin-bottom: 0px;
+   }
+
+   .faq {
+     margin-bottom: 70px;
+   }
+
+   .according,
+   .contact-form textarea,
+   .banner-content .banner-text {
+     width: 100%;
+   }
+
+   .contact,
+   .foot .footer-content,
+   .footbord {
+     padding: 20px;
+     margin: 0;
+   }
+
+   .facilities-content {
+     flex: 0 0 100%;
+     max-width: 70%;
+     padding: 70px 50px;
+     margin: 20px 40px;
+     box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+   }
+
+   .facilities-content:nth-child(n+5) {
+     display: none;
+   }
+
+   .contact-submit-button {
+     font-size: 11.5px;
+     width: 275px;
+     height: 50px;
+   }
+
+   .banner-content {
+     align-items: center;
+     padding: 20px;
+     height: 180px;
+   }
+   .slick-next{
+    right: 3rem;
+   }
+   .item,.services-col2 {
+     padding: 0;
+     margin: 0;
+   }
+
+   .about-home,
+   .serve,
+   #facilities .row {
+     flex-direction: column;
+     margin: 0rem .5rem;
+   }
+
+   .serve {
+     margin-top: 15px;
+   }
+   .login-col1,.login-col2{
+    flex: 0 0 50%;
+    max-width: 50%;
+   }
+   .login-col2 .input{
+    width: 85%;
+   }
+   .login-col2 .form-submit{
+    width: 35%;
+   }
+   .staff-img{
+    width: 50%; 
+    margin: 2rem auto;
+  }
+ 
+ }
+
+ /* large Screen*/
+ @media (min-width:768px) and (max-width:990px) {
+   .showcase {
+     margin-bottom: 80px;
+   }
+
+   .home-content{
+     flex: 0 0 50%;
+     max-width: 50%;
+     margin-bottom: 40px;
+   }
+   #facilities .row {
+     flex-wrap: wrap;
+     flex-direction: column;
+   }
+   .home-content3,
+   .home-content .appointment {
+     flex: 0 0 100%;
+     max-width: 90%;
+     padding: 30px 35px;
+   }
+ }
+
+ @media screen and (min-width: 820.1px) {
+   .nav-list {
+     display: flex;
+   }
+   .nav__link {
+     margin-right: 40px;
+   }
+ }
+
+
+ /* login and register */
+ @media screen and (max-width:760px) {
+
+ }

@@ -1,0 +1,148 @@
+
+
+/*  */
+div{
+  position: relative;
+} 
+.contact-main{
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding-top: 100px;
+  padding-bottom: 42px;
+  z-index:1;
+}
+.contact-main .row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contact-main .col1{
+  flex: 0 0 66.6667%;
+  max-width: 66.6667%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*  */
+.form-appointment{
+  display: block;
+  width: 100%;
+  height: 51px;
+  background: rgb(229, 236, 241);
+  border: none;
+  outline: none;
+  border-left: 3px solid transparent;
+  padding-left: 10px;
+  transition: all 200ms ease 0s;
+  font-style: italic;
+}
+.form-appointment:hover{
+  border-left: 3px solid #81d817;
+}
+.contact-form-container input:not(:last-child) {
+  margin-bottom: 20px;
+}
+.contact-form-container textarea{
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+}
+
+.form-btn{
+  width: 275px;
+  height: 54px;
+  background:#69be00 ;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  margin-top: 28px;
+}
+
+.contact-main .col2{
+ flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* .info_select{
+ display: block;
+  position: relative;
+  appearance: none;
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px;
+  user-select: none;
+  background-image: url(../images/down.png);
+  background-position: right center;
+  background-repeat: no-repeatf;
+  border: none;
+  outline: none;
+  font-style: italic;
+  cursor: pointer;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: rgb(130, 130, 130) !important;
+} */
+
+.contact-info{
+    position: absolute;
+    left: 15px;
+    top: calc(100% + 42px);
+    width: calc(100% - 30px);
+    background: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 62px;
+    border-bottom: 4px solid #69be00;
+    /* box-shadow+: rgb(4 4 4 / 9%) 0px 71px 81p */
+}
+.address{
+  margin: 20px 5px;
+
+}
+.address ul li,.day{
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.contact-info-container{
+  left:15px;
+}
+.flex{
+  flex:1;
+}
+.open-title{
+  font-size: 24px;
+  font-weight:600;
+  color: #1a1919;
+  margin-bottom: 15px;
+}
+.contact-map{
+  margin-top: 300px;
+}
+.map{
+  width: 96%;
+  margin: auto;
+}
+/*  */
+@media (min-width:551px) and (max-width:1280px){
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+.contact-map {
+  margin-top: 350px;
+}
+}

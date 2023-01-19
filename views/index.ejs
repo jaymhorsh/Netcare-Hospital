@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NetCare Hospital</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="/">
+      <h1 class="logo">
+        <img src="images/logo.png" alt="logo">
+      </h1>
+    </a>
+    <div class="navbar">
+      <div class="navMenu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="/" class="nav__link">Home</a></li>
+          <li><a href="/services" class="nav__link">Services</a></li>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn nav__link">Departments</a>
+            <div class="dropdown-content">
+              <a href="#">Surgery</a>
+              <a href="#">Pharmacy</a>
+              <a href="#">Orthopedics</a>
+              <a href="#">Radiology</a>
+              <a href="#">Gyneacology</a>
+              <a href="#">Optics </a>
+              <a href="#">Dentistry </a>
+              <a href="#">Dermatology </a>
+            </div>
+          </li>
+          <li><a href="/doctor" class="nav__link">Doctors</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn nav__link">Blogs</a>
+            <div class="dropdown-content">
+              <a href="#">Health</a>
+              <a href="#">Lifestyle</a>
+              <a href="#">Social</a>
+            </div>
+          </li>
+          <li><a href="/about" class="nav__link">About Us</a></li>
+          </li>
+          <li><a href="/contact" class="nav__link">Contacts Us</a></li>
+        </ul>
+      </div>
+      <div class="login">
+        <a href="/login">Login</a>
+      </div>
+      <div class="hamburger" id="nav-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+  </header>
+  <!-- slide backgrouond -->
+  <div class="showcase">
+    <!--  -->
+    <div class="slideshow active"
+      style="background: url('images/background1.jpg') no-repeat center center/cover; height:100vh;">
+      <div class="showcase-content">
+        <h1>
+          WE at Netcare are ready to solve all your Health related issues.
+        </h1>
+        <p class="secondary_text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+          dicta voluptates dolore, ab eius assumenda vitae. Vel eaque tempora
+          sit sed cumque, nostrum atque est autem quia delectus hic eveniet.
+        </p>
+        <a href="/services" class="btn">About Our Services</a>
+      </div>
+    </div>
+    <!--  -->
+    <div class="slideshow"
+      style="background: url('images/background.jpg') no-repeat center center/cover; height:100vh;">
+      <div class="showcase-content">
+        <h1>
+          WE at Netcare are ready to solve all your health issues.
+        </h1>
+        <p class="secondary_text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+          dicta voluptates dolore, ab eius assumenda vitae. Vel eaque tempora
+          sit sed cumque, nostrum atque est autem quia delectus hic eveniet.
+        </p>
+        <a href="/services" class="btn">About Our Services</a>
+      </div>
+    </div>
+    <!--  -->
+    <div class="slideshow" style="background: url('images/Lab2.jpg') no-repeat center center/cover; height:100vh;">
+      <div class="showcase-content">
+        <h1>
+          WE at Netcare are ready to solve all your Health related issues.
+        </h1>
+        <p class="secondary_text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+          dicta voluptates dolore, ab eius assumenda vitae. Vel eaque tempora
+          sit sed cumque, nostrum atque est autem quia delectus hic eveniet.
+        </p>
+        <a href="/services" class="btn">About Our Services</a>
+      </div>
+    </div>
+    <!--  -->
+    <div class="slideshow" style="background: url('images/Lab.jpg') no-repeat center center/cover; height:100vh;">
+      <div class="showcase-content">
+        <h1>We Care for your health every moment</h1>
+        <p class="secondary_text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+          dicta voluptates dolore, ab eius assumenda vitae. Vel eaque tempora
+          sit sed cumque, nostrum atque est autem quia delectus hic eveniet.
+        </p>
+        <a href="/services" class="btn">About Our Services</a>
+      </div>
+    </div>
+  </div>
+  <!-- Home-content -->
+  <div class="home-section ">
+    <div class="home-content">
+      <div class="home-row">
+        <div class="home-img">
+          <img src="images/pexels-thirdman-5327874.jpg" alt="homepage-image">
+        </div>
+        <div class="home-text">
+          <h3> Free Consultations</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicingn elit consectetur adipisicing elit ending g elit
+            consectetur adipisicing elit ending.
+          </p>
+          <a href="#" class="home-btn">READ MORE</a>
+        </div>
+      </div>
+    </div>
+    <div class="home-content">
+      <div class="home-row">
+        <div class="home-img">
+          <img src="images/Surgery1.jpg" alt="homepage-image">
+        </div>
+        <div class="home-text">
+          <h3>Emergency Care</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit ending g elit
+            consectetur adipisicing elit ending.
+          </p>
+          <a href="#" class="home-btn"> READ MORE</a>
+        </div>
+      </div>
+    </div>
+    <div class="home-content home-content3">
+      <div class="info_form_container appointment">
+        <div class="info_form_title">Book an Appointment</div>
+        <script type="text/javascript">
+          var submitted = false;
+        </script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){
+                  alert('Your response has been successfully submitted')
+                  window.location='/contact';
+              }">
+        </iframe>
+        <form
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdGK_re93ijaQo8ezBAFJIrfNEW68xT3I6V6dwZQ2axoBuPUg/formResponse"
+          method="POST" 
+          target="hidden_iframe" 
+          class="info_form" 
+          id="info_form" 
+          onsubmit="submitted=true">
+          <input type="email" name="entry.1934350372" placeholder="Email" required class="info_input">
+          <select name="entry.981628814" class="info_input info_select" required>
+            <option value="" selected disabled>Department</option>
+            <option value="Radiology">Radiology</option>
+            <option value="Orthopedics">Orthopedics</option>
+            <option value="Pharmacy">Pharmacy</option>
+            <option value="Dermatology">Dermatology</option>
+            <option value="Dentistry">Dentistry</option>
+            <option value="Surgery">Surgery</option>
+            <option value="Gyneacology">Gyneacology</option>
+          </select>
+          <select name="entry.1999371499" class="info_input info_select" required>
+            <option value="" selected disabled>Doctor</option>
+            <option value="Dr. Jaji Moshood">Dr.Jaji Moshood</option>
+            <option value="Dr. Razak Gbolahan">Dr.Razak Gbolahan</option>
+            <option value="Dr. Keshinro Wahab">Dr.Keshinro Wahab</option>
+            <option value="Dr. Tijani Jamiu">Dr.Tijani Jamiu</option>
+            <option value="Dr. Caleb Ilabija">Dr.Caleb Ilabija</option>
+            <option value="Dr. Hassan Oladipupo">Dr.Hassan Oladipupo</option>
+            <option value="Dr.Quadri Sideeqoh">Dr.Quadri Sideeqoh</option>
+          </select>
+          <input name="entry.820515922" type="text" class="info_input" required placeholder="Appointment Date"
+            onfocus="(this.type='date')">
+          <input type="text" name="entry.1810122970" class="info_input" placeholder="Patient Name" required>
+          <input type="number" name="entry.1075530158" class="info_input" required max="100" placeholder="Age">
+          <input type="text" name="entry.734019752" class="info_input" required placeholder="Phone Number">
+          <button class="info_form_button">Make an appointment</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Call Now -->
+  <div class="banner" style="background:url(./images/pexels-vh-s-2440844.jpg) no-repeat center center/cover;">
+    <div class="banner-content">
+      <div class="banner-text">
+        <p> Make an appointment with one of our professional Doctors</p>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing eli</p>
+      </div>
+      <div class="call">
+        <a href="#" class="call-btn">CALL NOW </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our Facilities -->
+  <div id="facilities" class="section">
+    <div class="title">
+      <div class="section-title"> Our Faciliities</div>
+      <div class="section-subtitle">Exploring Our Facilities</div>
+    </div>
+    <div class="facilities">
+      <div class="facilities-content">
+        <div class="facilities-icon">
+          <i class="fa fa-rocket"></i>
+          <h3>24/7 Emergency Care</h3>
+        </div>
+        <div class="facilities-description">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quos
+            vel excepturi reprehenderit voluptates unde culpa consequatur Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. Corporis laborum
+            consectetur vel ipsam ipsum, aliquam consequuntur autem culpa. Magna+m.
+
+          </p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="facilities-content">
+        <div class="facilities-icon">
+          <i class="fa fa-heart"></i>
+          <h3>24/7 Medical Access</h3>
+        </div>
+        <div class="facilities-description">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quos
+            vel excepturi reprehenderit voluptates unde culpa consequatur Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. Corporis laborum
+            consectetur vel ipsam ipsum, aliquam consequuntur autem culpa. Magna++m.
+          </p>
+        </div>
+      </div>
+      <!-- -->
+      <div class="facilities-content">
+        <div class="facilities-icon">
+          <i class="fa fa-bug"></i>
+          <h3>Intensive Care</h3>
+        </div>
+        <div class="facilities-description">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quos
+            vel excepturi reprehenderit voluptates unde culpa consequatur Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. Corporis laborum
+            consectetur vel ipsam ipsum, aliquam consequuntur autem culpa. Magn+am
+          </p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="facilities-content">
+        <div class="facilities-icon">
+          <i class="fa fa-users"></i>
+          <h3>Family Planning</h3>
+        </div>
+        <div class="facilities-description">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quos
+            vel excepturi reprehenderit voluptates unde culpa consequatur Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. Corporis laborum
+            consectetur vel ipsam ipsum, aliquam consequuntur autem culpa. Magnam
+
+          </p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="facilities-content">
+        <div class="facilities-icon">
+          <i class="fa fa-rocket"></i>
+          <h3>24/7 Emergency Care</h3>
+        </div>
+        <div class="facilities-description">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quos
+            vel excepturi reprehenderit voluptates unde culpa consequatur Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. Corporis laborum
+            consectetur vel ipsam ipsum, aliquam consequuntur autem culpa. Magnam
+
+          </p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="facilities-content">
+        <div class="facilities-icon">
+          <i class="fa fa-heart"></i>
+          <h3>24/7 Medical Access</h3>
+        </div>
+        <div class="facilities-description">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quos
+            vel excepturi reprehenderit voluptates unde culpa consequatur Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. Corporis laborum
+            consectetur vel ipsam ipsum, aliquam consequuntur autem culpa. Magnam
+
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div style="background: #222222;" id="services" class="section">
+    <div class="services container">
+      <div class="services-col1">
+        <div class="services-title1"> Our Services</div>
+        <div class="services-title2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit officia accusantium eum quos nihil
+          explicabo</div>
+        <div class="services-content">
+          <div class="content-col">
+            <div class="services-img">
+              <img src="images/Med-Machine3.jpg" alt="medical-equipment">
+            </div>
+            <h3>Routine Checkup</h3>
+            <div class="services-description">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid labore molestiae quia, pariatur iusto
+                optio dolor, quam qui quos fuga nesciunt eaque minus voluptas! Odit nostrum corporis sint ea fugit.</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="content-col">
+            <div class="services-img">
+              <img src="images/Dentist.jpg" alt="dentistry dept">
+            </div>
+            <h3>Cardiac treatment</h3>
+            <div class="services-description">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ullam aliquid, earum eius, veritatis
+                at velit nisi est soluta quo ex quam incidunt libero consectetur molestiae minus omnis odio deserunt?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services-col2">
+        <div class="back" style="background: url(images/Lab.jpg) no-repeat center center/cover;">
+          <div class="dept-list">
+            <h1>Departments</h1>
+            <ul>
+              <li><a href="#">Pediatric Diaggnosis</a></li>
+              <li><a href="#">Outpatient Rehabilitation</a></li>
+              <li><a href="#">Dentistry Unit</a></li>
+              <li><a href="#">Pharmacist Unit</a></li>
+              <li><a href="#">Outpatient Surgery</a></li>
+              <li><a href="#">Gynaelogical Wings</a></li>
+              <li><a href="#">Laboratory Unit</a></li>
+            </ul>
+            <a href="#" class="all-dept"> VIEW ALL DEPARTMENT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Our Consultant -->
+  <div class="conslt" id="conslt" class="section">
+    <div class="title">
+      <div class="section-title">Our Consultants</div>
+      <div class="section-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit</div>
+    </div>
+    <div class="doctors container ">
+      <!--  -->
+      <div class="doctor">
+        <img src="images/Doctor.jpg" alt="" class="docimg">
+        <div class="overlay">
+          <div class="social-links">
+            <a href="#" title="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" title="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" title="instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" title="linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div>
+            <h4>Dr Abd-Azeez Gbolahan </h4>
+            <p>Cheif Laboratory Technician</p>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="doctor">
+        <img src="images/Doc5.jpg" alt="" class="docimg">
+        <div class="overlay">
+          <div class="social-links">
+            <a href="#" title="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" title="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" title="instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" title="linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div>
+            <h4>Dr Abd-Azeez Gbolahan </h4>
+            <p>Cheif Laboratory Technician</p>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="doctor">
+        <img src="images/Doc6.jpg" alt="" class="docimg">
+        <div class="overlay">
+          <div class="social-links">
+            <a href="#" title="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" title="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" title="instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" title="linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div>
+            <h4>Dr Abd-Azeez Gbolahan </h4>
+            <p>Cheif Laboratory Technician</p>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="doctor">
+        <img src="images/(2).jpg" alt="" class="docimg">
+        <div class="overlay">
+          <div class="social-links">
+            <a href="#" title="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" title="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" title="instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" title="linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div>
+            <h4>Dr Abd-Azeez Gbolahan </h4>
+            <p>Cheif Laboratory Technician</p>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="arrow">
+        <a href="/doctor">
+          <p>see more</p>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!--Our Partner  -->
+  <div class="partner" class="section">
+    <div class="title">
+      <div class="section-title">Our Partners</div>
+      <div class="section-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit</div>
+    </div>
+    <div class="container row partner-logos slider">
+      <div class="slide"><a href="#"><img src="images/partners/adidas.png" alt="logo"></a></div>
+      <div class="slide"><a href="#"><img src="images/partners/facebook.png" alt="logo"></a></div>
+      <div class="slide"><a href="#"><img src="images/partners/google.png" alt="logo"></a></div>
+      <div class="slide"><a href="#"><img src="images/partners/instagram.png" alt="logo"></a></div>
+      <div class="slide"><a href="#"><img src="images/partners/nike.png" alt="logo"></a></div>
+      <div class="slide"><a href="#"><img src="images/partners/twitter.png" alt="logo"></a></div>
+      <div class="slide"><a href="#"><img src="images/partners/uber.png" alt="logo"></a></div>
+      <div class="slide"><a href="#"><img src="images/partners/youtube.png" alt="logo"></a></div>
+    </div>
+  </div>
+  <!-- Faq and News -->
+  <div class="faq-news">
+    <div class="faq-news-row container">
+      <div class="fcol1">
+        <div class="faq">
+          <div class="faq-title">Faq</div>
+          <div class="faq-subtitle"> Frequently asked questions</div>
+          <div class="faq-container">
+            <div class="accordings">
+              <div class="according">
+                <div class=" accordion row">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                </div>
+                <p class="panel">This is way of doing things in Nigeria, We're getting there getting there Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Nesciunt soluta officiis ea neque, harum impedit
+                  explicabo voluptates vitae exercitationem esse, non magnam tempore</p>
+              </div>
+              <div class="according">
+                <div class=" accordion row">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                </div>
+                <p class="panel">This is way of doing things in Nigeria, We're getting there getting there Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Nesciunt soluta officiis ea neque, harum impedit
+                  explicabo voluptates vitae exercitationem esse, non magnam tempore illo inventore maxime! Tenetur
+                  dolorem temporibus quasi?.</p>
+              </div>
+              <div class="according">
+                <div class=" accordion row">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                </div>
+                <p class="panel">This is way of doing things in Nigeria, We're getting there getting there Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Nesciunt soluta officiis ea neque, harum impedit
+                  explicabo voluptates vitae exercitationem esse, non magnam tempore illo inventore maxime! Tenetur
+                  dolorem temporibus quasi?.</p>
+              </div>
+              <div class="according">
+                <div class=" accordion row">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                </div>
+                <p class="panel">This is way of doing things in Nigeria, We're getting there getting there Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Nesciunt soluta officiis ea neque, harum impedit
+                  explicabo voluptates vitae exercitationem esse, non magnam tempore illo inventore maxime! Tenetur
+                  dolorem temporibus quasi?.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fcol2">
+        <div class="faq">
+          <div class="faq-title">Latest News</div>
+          <div class="faq-subtitle">READ ALL ABOUT IT </div>
+          <div class="faq-container">
+            <div class="news-row">
+              <div class="news-container">
+                <div class="news-img">
+                  <img src="images/exp1.jpg" alt="news-image">
+                </div>
+                <div class="latest-content">
+                  <div class="latest-title">
+                    <a href="#"> The Hazardous effect self medication on our body </a>
+                  </div>
+                  <div class="latest-info">
+                    <ul>
+                      <li><a href="#">by Jay-Mhorsh</a></li>
+                      <li><a href="#">July 25, 2022</a></li>
+                    </ul>
+                  </div>
+                  <div class="latest-comment"> 9 Comments</div>
+                </div>
+              </div>
+              <div class="news-container">
+                <div class="news-img">
+                  <img src="images/exp2.jpg" alt="news-img">
+                </div>
+                <div class="latest-content">
+                  <div class="latest-title">
+                    <a href="#"> A new way to see things in medicine</a>
+                  </div>
+                  <div class="latest-info">
+                    <ul>
+                      <li><a href="#">by Larry Marge</a></li>
+                      <li><a href="#">January 25, 2012</a></li>
+                    </ul>
+                  </div>
+                  <div class="latest-comment"> 9 Comments</div>
+                </div>
+              </div>
+              <div class="news-container">
+                <div class="news-img">
+                  <img src="images/exp3.jpg" alt="news-img">
+                </div>
+                <div class="latest-content">
+                  <div class="latest-title">
+                    <a href="#"> A simple blog post</a>
+                  </div>
+                  <div class="latest-info">
+                    <ul>
+                      <li><a href="#">by Jane Smith</a></li>
+                      <li><a href="#">April 25, 2018</a></li>
+                    </ul>
+                  </div>
+                  <div class="latest-comment"> 2 Comments</div>
+                </div>
+              </div>
+              <div class="news-container">
+                <div class="news-img">
+                  <img src="images/woman-using-silver-laptop-2265488.jpg" alt="news-img">
+                </div>
+                <div class="latest-content">
+                  <div class="latest-title">
+                    <a href="#"> A simple blog post</a>
+                  </div>
+                  <div class="latest-info">
+                    <ul>
+                      <li><a href="#">by Jane Smith</a></li>
+                      <li><a href="#">April 25, 2018</a></li>
+                    </ul>
+                  </div>
+                  <div class="latest-comment"> 2 Comments</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="foot"
+      style=" background: url(images/pexels-jonathan-meyer-668298\ -\ Copy.jpg) no-repeat center center/cover;">
+      <div class="footer-content ">
+        <div class="footer-row ">
+          <div class="contact">
+            <h1 class="logo">
+              <img src="images/logo.png" alt="logo">
+            </h1>
+            <h6 class="contact-title">Contact Us</h6>
+            <div style="color: green;font-size: 28px; margin-bottom:15px; ">
+              <i class="fas fa-landmark-alt"></i>
+            </div>
+            <p> 56/8, Santa bullevard, Rocky beach, San fransisco, Los angeles, USA.</p>
+            <div style="color: green;font-size: 28px; margin-top:30px; ">
+              <i class="fa fa-phone"></i>
+            </div>
+            <h3>+234-809-0686-548</h3>
+            <h3>+234-815-5888-980</h3>
+            <div class="contact-links">
+              <a href="#" title="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" title="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" title="instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" title="linkedin">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer-form">
+            <script type="text/javascript">
+              var submitted = false;
+            </script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"
+              onload="if(submitted){
+               alert('Your response has been successfully submitted')
+              window.location='/'}">
+            </iframe>
+            <h6 class="contact-title"> Quick Contact</h6>
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf9WLfJbhROIiLCgkvaruq8zs-4gTzMQ-HXeJVfYMHmPIaMfg/formResponse" 
+              method="POST" 
+              target="hidden_iframe"
+              method="POST" 
+              onsubmit="submitted=true">
+              <div class="contact-form">
+                <input type="text" name="entry.1994729641" placeholder="Name" class="contact-input">
+                <input type="email" name="entry.1328250020" placeholder="Email"  class="contact-input">
+                <input type="subject" name="entry.1874333904" placeholder="Subject" class="contact-input">
+                <textarea rows="10" name="entry.1015071916" placeholder="Message"></textarea>
+                <button type="submit" class="contact-submit-button">Submit </button>
+              </div>
+            </form>
+          </div>
+          <div class="opening-hours">
+            <div class="opening">
+              <h6 class="contact-title"> Opening Hours</h6>
+              <ul class="opentimes">
+                <li class="oog">
+                  <span> Monday-Thursday</span>
+                  <span>08.00 am - 10.00 pm</span>
+                </li>
+                <li class="oog">
+                  <span>Friday</span>
+                  <span>08.00 am - 10.00 pm</span>
+                </li>
+                <li class="oog">
+                  <span> Saturday</span>
+                  <span>08.00 am - 10.00 pm</span>
+                </li>
+                <li class="oog">
+                  <span> Sunday </span>
+                  <span>08.00 am - 10.00 pm</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="footbord ">
+        <marquee>
+          AT NETCARE LAGOS, WE ARE HERE TO SERVE YOU BETTER, JOIN US TODAY AND YOU"LL BE CONVINCED... AT NETCARE LAGOS,
+          WE ARE HERE TO SERVE YOU BETTER, JOIN US TODAY AND YOU"LL BE CONVINCED...
+        </marquee>
+      </h2>
+    </div>
+  </footer>
+  <!-- js file -->
+  <script src="js/jquery.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/scrollreveal.js"></script>
+  <script src="js/main.js"></script>
+  <!--slick js  -->
+  <script src="js/slick.min.js"></script>
+  <script src="js/slick.js"></script>
+</body>
+
+</html>
