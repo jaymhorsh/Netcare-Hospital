@@ -160,7 +160,7 @@ figcaption {
 
 .aside .nav li a,
 .extra-nav ul li a {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     color: #302e4d;
     text-decoration: none;
@@ -175,7 +175,6 @@ figcaption {
 .aside .nav,
 .aside .extra-nav {
     margin: 10px 0px;
-    padding: 0px 20px;
 }
 
 .aside .nav {
