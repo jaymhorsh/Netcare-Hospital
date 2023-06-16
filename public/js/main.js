@@ -1,3 +1,5 @@
+//Preloader
+
 // Homepage slide show
 $(window).on("load", function () {
   // home section slideshow
@@ -91,4 +93,5 @@ totalDoctors = doctors.length;
 		}
 	})
 }
-// 
+
+

@@ -86,7 +86,10 @@
      height: 40px;
      width: 140px;
    }
-
+   .sinput {
+    width: 47%;
+    margin-left: 5px;
+}
    #facilities .row,
    .about-home,
    .col,.services-row {
@@ -314,9 +317,13 @@
    .serve {
      margin-top: 15px;
    }
-   .login-col1,.login-col2{
-    flex: 0 0 50%;
-    max-width: 50%;
+   .login-col1{
+    flex: 0 0 30%;
+    max-width: 30%;
+   }
+   .login-col2{
+    flex: 0 0 70%;
+    max-width: 70%;
    }
    .login-col2 .input{
     width: 85%;
@@ -366,5 +373,17 @@
 
  /* login and register */
  @media screen and (max-width:760px) {
-
+  .sinput {
+    width: 47%;
+    margin-left: 5px;
+}
+.linput {
+  width: 96%;
+  margin-left: 5px;
+  outline: none;
+}
+.login-col2{
+  flex: 1 0 0;
+  margin: auto;
+}
  }

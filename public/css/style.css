@@ -55,10 +55,12 @@ li {
 .section {
   margin-top: 120px;
 }
+
 .title {
-  margin-bottom: 60px;
-  margin-top: 50px;
+  margin-bottom: 50px;
+
 }
+
 .section-title {
   font-size: 32px;
   font-weight: 700;
@@ -92,7 +94,6 @@ li {
   font-size: 1.3rem;
   cursor: pointer;
   color: rgb(76, 76, 76);
-  ;
   transition: all 200ms ease 0s;
 }
 
@@ -112,7 +113,7 @@ li {
     transition: 0.5s;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 0 2rem;
-    z-index: 1;
+    z-index: 100;
   }
 
   .nav-list li {
@@ -130,6 +131,7 @@ li {
 
 .navMenu li a:hover {
   color: #426e0c;
+  transition: all 0.2s ease-in;
 }
 
 .navbar .login {
@@ -661,7 +663,7 @@ li {
   min-height: 1px;
   width: 100%;
   margin: 10px;
-  line-height: 0%
+  line-height: 0%;
 }
 
 .docimg {
@@ -758,7 +760,7 @@ li {
 }
 
 .slide a img {
-  min-width: 44px;
+  width: 80px;
 }
 
 .slick-slide {
@@ -918,8 +920,8 @@ li {
 
 .accordion:before {
   content: "\002B";
-  font-size: 20px;
-  padding: 10px 18px;
+  font-size: 17px;
+  padding: 6px 16px;
   background-color: #69be00;
   color: #ffff;
   margin-right: 15px;
@@ -1284,9 +1286,12 @@ footer {
   padding-right: 20px;
   background-color: #f7f7f6;
 }
-.reg-form{
-  margin-bottom: 5px;;
+
+.reg-form {
+  margin-bottom: 5px;
+  ;
 }
+
 .login-container {
   display: flex;
   align-items: center;
@@ -1299,17 +1304,22 @@ footer {
 
 .login-col1 {
   flex: 0 0 35%;
+  max-width: 35%;
+}
+
+.login-img {
   display: flex;
   height: 100%;
+  flex-wrap: nowrap;
 }
 
 .login-col2 {
-  background: #f5f1f1;
   flex: 0 0 65%;
   position: relative;
   margin: auto;
 }
-.form-container{
+
+.form-container {
   margin: 50px 0px 9px 0px;
 }
 
@@ -1321,6 +1331,7 @@ footer {
 
 img {
   width: 100%;
+  object-fit: cover;
 }
 
 .input-container {

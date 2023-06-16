@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Register</title>
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
 
 </head>
 <style>
@@ -34,17 +35,17 @@
       </h1>
     </a>
     <div class="login">
-      <a href="/">Home</a>
+      <a href="/dashboard">Home</a>
     </div>
   </header>
 
   <div class="login-container col-container">
     <div class="login-col1">
-      <div class="login -img ">
+      <div class="login-img ">
         <img src="images/background.jpg" alt="" height="100%">
       </div>
     </div>
-    <div class=" login-col2">
+    <div class="login-col2">
       <div class="form-container">
         <div class="form-title ">
           <h4>Register </h4>
@@ -76,13 +77,13 @@
               </span>
             </span>
             <span class="sinput">
-              <label for="category">Category</label><br>
+              <label for="Marital Status">Marital Status</label><br>
               <select name="category" id="category" class="input" required>
-                <option value="category" disabled selected> Category</option>
-                <option value="infant"> Infant </option>
-                <option value="Children"> Children</option>
-                <option value="Adult"> Adult </option>
-                <option value="Old">Old</option>
+                <option value="Marital Status" disabled selected></option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="divorced">Divorced</option>
+                <option value="widowed">Widowed</option>
               </select>
             </span>
             <span class="sinput">
@@ -100,7 +101,7 @@
               <input type="text" placeholder="First Name" required class="input" id="kinName" />
             </span>
             <span class="sinput">
-              <label for="phone">phone 0f Kin: Phone Number</label>
+              <label for="phone">Next 0f Kin: Phone Number</label>
               <input type="number" name="phone" placeholder="Phone" pattern="[0-9]{11}" class="input" id="kinPhone"
                 minlength="11" maxlength="11" required />
             </span>
