@@ -22,7 +22,9 @@
    .staff-info {
      padding: 2rem 1.2rem;
    }
-
+   .slide a img {
+    width: 40px;
+  }
    .slick-next {
      right: 2rem;
    }
@@ -299,6 +301,8 @@
      padding: 20px;
      height: 180px;
    }
+
+  
    .slick-next{
     right: 3rem;
    }

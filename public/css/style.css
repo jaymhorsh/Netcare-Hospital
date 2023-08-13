@@ -921,7 +921,7 @@ li {
 .accordion:before {
   content: "\002B";
   font-size: 17px;
-  padding: 6px 16px;
+  padding: 12px 20px;
   background-color: #69be00;
   color: #ffff;
   margin-right: 15px;
@@ -957,7 +957,7 @@ li {
 
 .news-img img {
   width: 100%;
-  height: 73px;
+  height: 65px;
   object-fit: cover;
   object-position: center;
 }

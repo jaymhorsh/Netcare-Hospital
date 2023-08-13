@@ -8,8 +8,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const config = require("./config");
 // Connecting to mongodb
-mongoose
-  .connect(config.MONGODB_URL, {
+mongoose.connect(config.MONGODB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
