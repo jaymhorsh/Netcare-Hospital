@@ -388,7 +388,7 @@
 }
 .login-col2{
   flex: 1 0 0;
-  margin: auto 30px;
+  margin: auto;
 }
   label {
     font-weight: 500;
